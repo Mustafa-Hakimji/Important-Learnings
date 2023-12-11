@@ -1,0 +1,8 @@
+React Native Background Actions --Library--
+In this library there is an important integration in androidManifest file which is not mentioned on their site. 
+we need to add this piece of code  <service android:name="com.asterinet.react.bgactions.RNBackgroundActionsTask" /> as shown below.
+  </activity>
+       <service android:name="com.asterinet.react.bgactions.RNBackgroundActionsTask" />
+  </application>
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+
